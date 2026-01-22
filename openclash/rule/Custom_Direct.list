@@ -11,6 +11,8 @@
 # Tailscale
 DOMAIN-SUFFIX,tailscale.com
 #SRC-PORT,41641
+# Cloudflare Tunnel
+DOMAIN-SUFFIX,argotunnel.com
 # GitHub 反代 CDN
 DOMAIN-SUFFIX,gh-proxy.com
 DOMAIN-SUFFIX,gh.con.sh
@@ -63,7 +65,6 @@ DOMAIN-SUFFIX,msftncsi.com
 # Kaspersky
 DOMAIN-SUFFIX,kaspersky.com
 DOMAIN-SUFFIX,kaspersky-labs.com
-
 # Akamai CDN
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
@@ -90,6 +91,8 @@ DOMAIN-SUFFIX,nn.ci
 DOMAIN-SUFFIX,wwwh.eu.org
 DOMAIN-SUFFIX,1996999.xyz
 # Emby 直连
+# 守候网络
+DOMAIN-SUFFIX,server2.cn2gias.uk
 # MeFun
 IP-CIDR,218.78.7.16/32,no-resolve
 IP-CIDR,98.126.27.164/32,no-resolve
@@ -129,6 +132,11 @@ DOMAIN-SUFFIX,ottiptv.cc
 IP-CIDR,108.174.48.100/32,no-resolve
 # 雀魂麻将
 DOMAIN-SUFFIX,game.maj-soul.com
+# hoyoverse.com
+DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
 
 # 软件类规则
 # 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
@@ -249,36 +257,3 @@ DOMAIN-SUFFIX,scratch5.com
 # =======================================
 # 以下是应当直连的冷门国内域名规则
 # =======================================
-
-# ---------------------------------------
-# 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
-# ---------------------------------------
-# 以下域名待提交 PR
-
-
-
-# 2026.1.18 分类整理完毕
-
-# ---------------------------------------
-# 以下域名已提交 PR
-
-# PR 至 felixonmars/dnsmasq-china-list
-
-# 星耀充值 / add by Telegram user: r / Date: 2026-01-13 19:50:19
-DOMAIN-SUFFIX,xingyaozhilian.com
-# 小倍养基 / add by Telegram user: Mairs / Date: 2026-01-13 17:11:39
-DOMAIN-SUFFIX,xiaobeiyangji.com
-# 小白打印 / add by Telegram user: r / Date: 2026-01-13 02:29:27
-DOMAIN-SUFFIX,xbcloudprint.com
-# 轩辕的编程宇宙 / add by Telegram user: Mayfly / Date: 2026-01-12 20:44:53
-DOMAIN-SUFFIX,xuanyuancode.com
-# 米思齐官网 / add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:41:54
-DOMAIN-SUFFIX,mixly.org
-# 铁威马NAS远程访问服务 / add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:40:12
-DOMAIN-SUFFIX,tnas.link
-# 铁威马官网 / add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:39:01
-DOMAIN-SUFFIX,terra-master.com
-# 铁威马NAS远程访问服务 / add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:36:32
-DOMAIN-SUFFIX,tnas.online
-
-# PR 至 v2fly/domain-list-community
