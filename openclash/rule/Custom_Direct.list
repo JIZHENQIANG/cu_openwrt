@@ -13,6 +13,9 @@ DOMAIN-SUFFIX,tailscale.com
 #SRC-PORT,41641
 # Cloudflare Tunnel
 DOMAIN-SUFFIX,argotunnel.com
+IP-CIDR,198.41.192.0/24,no-resolve
+IP-CIDR,198.41.200.0/24,no-resolve
+#DST-PORT,7844
 # GitHub 反代 CDN
 DOMAIN-SUFFIX,gh-proxy.com
 DOMAIN-SUFFIX,gh.con.sh
@@ -63,8 +66,8 @@ DOMAIN-SUFFIX,members.3322.org
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 # Kaspersky
-DOMAIN-SUFFIX,kaspersky.com
-DOMAIN-SUFFIX,kaspersky-labs.com
+#DOMAIN-SUFFIX,kaspersky.com
+#DOMAIN-SUFFIX,kaspersky-labs.com
 # Akamai CDN
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
@@ -137,6 +140,9 @@ DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+# 微软模拟飞行2024
+DOMAIN-SUFFIX,sunrisecontent.akamaized.net
+
 
 # 软件类规则
 # 软件及服务 / add by Telegram user: rl / Date: 2025-08-14 09:47:11
@@ -253,6 +259,12 @@ DOMAIN-SUFFIX,dnshe.com
 DOMAIN-SUFFIX,lg3000.top
 # add by Telegram user: 嘿嘿 / Date: 2026-01-11 20:42:55
 DOMAIN-SUFFIX,scratch5.com
+# 播客 / add by Telegram user: Mairs / Date: 2026-01-22 17:49:33
+DOMAIN-SUFFIX,meiyitou.top
+# add by Telegram user: Mairs / Date: 2026-01-22 17:48:05
+DOMAIN-SUFFIX,misea.top
+# 先锋学霸 / add by Telegram user: Mairs / Date: 2026-01-22 17:46:58
+DOMAIN-SUFFIX,axuex.top
 
 # =======================================
 # 以下是应当直连的冷门国内域名规则
