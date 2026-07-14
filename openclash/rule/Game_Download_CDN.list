@@ -11,13 +11,13 @@
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # [重要提示]
 # 本文件已归档，仅为兼容旧订阅链接而保留。
-# 请注意：本文件将自动同步上游 eosite:category-game-platforms-download 内容。
+# 请注意：本文件将自动同步上游 geosite:category-game-platforms-download 内容。
 # 实际归档文件位置：rule/archived/Game_Download_CDN.list
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-# 本规则不再更新
-# 规则内容已合并至 v2fly/domain-list-community
+# 规则内容已合并至 v2fly/domain-list-community，本文件仅作旧订阅链接的兼容入口。
 # 建议使用 geosite:category-game-platforms-download
+
 # Bethesda - 客户端更新/游戏及 MOD 下载
 DOMAIN-SUFFIX,download.cdp.bethesda.net
 DOMAIN-SUFFIX,content.cdp.bethesda.net
@@ -51,7 +51,7 @@ DOMAIN-SUFFIX,download4.epicgames.com
 DOMAIN-SUFFIX,epicgames-download1.akamaized.net
 # Epic Game - 游戏下载[Fastly]
 DOMAIN-SUFFIX,fastly-download.epicgames.com
-egdownload.fastly-edge.com
+DOMAIN-SUFFIX,egdownload.fastly-edge.com
 # Epic Game - 游戏下载[CloudFlare]
 DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
 # Epic Game - 游戏下载[中国区]
@@ -99,8 +99,6 @@ DOMAIN-SUFFIX,uplaypc-s-ubisoft-ww.cdn.ubi.com
 DOMAIN-SUFFIX,ubisoftconnect.cdn.ubi.com
 # Ubisoft Connect(Uplay) - 游戏下载-腾讯云(中国大陆地区)
 DOMAIN-SUFFIX,ubisoftconnect.eo-edgefunctions7.com
-DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com.cn
-# Ubisoft Connect(Uplay) - 游戏下载-AkamaiCN(中国大陆地区)
 DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 # EA Desktop - 游戏下载[akamai-CDN]
 DOMAIN-SUFFIX,origin-a.akamaihd.net
@@ -541,4 +539,4 @@ DOMAIN-SUFFIX,steam.ru.qtlglb.com
 # Steam - 游戏下载(非中国下载区)[edgecast]
 DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
 # playstation 下载
-# [UNSUPPORTED] domain:dl.playstation.net
+DOMAIN-SUFFIX,dl.playstation.net

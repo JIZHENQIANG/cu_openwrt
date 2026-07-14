@@ -1,0 +1,10 @@
+# 解决Dota2东南亚延迟高的问题(默认dota2路由会绕路日本，造成100ms+延迟)
+# 请确保此规则优先级高于 Steam_CDN 规则
+# 请确保节点落地支持udp且在香港，其他区域游戏请指定区域落地节点，效果取决于节点好坏
+
+# Dota2 游戏服务器节点 东南亚区 地址(规则分流也不能让东南亚走代理，日本服务器走直连，造成日本服务器延迟升高)
+# AND,((PROCESS-NAME,dota2.exe),(IP-CIDR,45.121.184.0/24,no-resolve))
+# AND,((PROCESS-NAME,dota2.exe),(IP-CIDR,103.10.124.0/23,no-resolve))
+# AND,((PROCESS-NAME,dota2.exe),(IP-CIDR,103.28.54.0/24,no-resolve))
+# 规则分流没有用就直接dota2流量全局代理，手动切换
+PROCESS-NAME,dota2.exe
