@@ -4,3 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
+unified-delay: true
+dns:
+  enable: true
+  nameserver:
+    - "system"
