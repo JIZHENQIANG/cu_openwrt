@@ -4,9 +4,12 @@ allow-lan: true
 mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
+ipv6: true
 unified-delay: true
 dns:
-  enable: false
+  enable: true
   ipv6: true
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-range6: 2001:2::1/64
   nameserver:
     - "system"
