@@ -6,6 +6,7 @@ log-level: info
 external-controller: '127.0.0.1:9090'
 unified-delay: true
 dns:
-  enable: true
+  enable: false
+  ipv6: true
   nameserver:
     - "system"
