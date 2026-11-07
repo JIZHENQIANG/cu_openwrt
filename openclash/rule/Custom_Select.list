@@ -11,4 +11,4 @@
 # AND,((PROCESS-NAME,dota2.exe),(IP-CIDR,103.10.124.0/23,no-resolve))
 # AND,((PROCESS-NAME,dota2.exe),(IP-CIDR,103.28.54.0/24,no-resolve))
 # 规则分流没有用就直接dota2流量全局代理，手动切换
-PROCESS-NAME,dota2.exe
+AND,((PROCESS-NAME,dota2.exe),(NETWORK,UDP))
